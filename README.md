@@ -36,8 +36,6 @@ py -m streamlit run dashboard.py
 O sistema será aberto automaticamente em: `http://localhost:8501`
 ```
 
-Como Usar
-
 Primeira Execução
 1. Abra o dashboard no navegador
 2. Clique em "🔄 Buscar Notícias" na barra lateral
@@ -45,17 +43,17 @@ Primeira Execução
 4. Explore as visualizações e análises geradas
 
 Navegando pelo Sistema
-- **Resumo**: Métricas principais na parte superior
-- **Gráficos**: Visualizações interativas dos sentimentos e palavras-chave
-- **Filtros**: Use os seletores para refinar os dados exibidos
-- **Export**: Baixe os dados filtrados para análise externa
+- Resumo: Métricas principais na parte superior
+- Gráficos: Visualizações interativas dos sentimentos e palavras-chave
+- Filtros: Use os seletores para refinar os dados exibidos
+- Export: Baixe os dados filtrados para análise externa
 
 Funcionalidades Disponíveis
-- ** Gráfico de Sentimentos**: Visualização clara da distribuição (positivo/negativo/neutro)
-- ** Nuvem de Palavras**: Destaque dos termos mais mencionados nas notícias
-- ** Tabela Interativa**: Lista completa com filtros inteligentes por sentimento e termo
-- ** Download**: Exportação dos dados filtrados em formato CSV compatível com Excel
-- ** Interface Moderna**: Design responsivo com cores e animações suaves
+- Gráfico de Sentimentos: Visualização clara da distribuição (positivo/negativo/neutro)
+- Nuvem de Palavras: Destaque dos termos mais mencionados nas notícias
+- Tabela Interativa: Lista completa com filtros inteligentes por sentimento e termo
+- Download: Exportação dos dados filtrados em formato CSV compatível com Excel
+- Interface Moderna: Design responsivo com cores e animações suaves
 
 Módulos do Sistema
 
@@ -72,7 +70,7 @@ Módulos do Sistema
 - Extrai termos mais frequentes
 - Remove palavras irrelevantes (stop words)
 
-### `dashboard.py`
+`dashboard.py`
 - Interface web responsiva com Streamlit
 - Gráficos interativos com Plotly
 - Visualizações com nuvem de palavras
@@ -81,10 +79,10 @@ Módulos do Sistema
 
 Limitações Conhecidas
 
-- **Análise de Sentimento**: Baseada em regras simples, não captura sarcasmo ou contextos complexos
-- **Fonte de Dados**: Dependente da disponibilidade dos feeds RSS do Google Notícias
-- **Volume**: Limitado a ~15 notícias por execução para evitar sobrecarga
-- **Idioma**: Otimizado para português brasileiro
+- Análise de Sentimento: Baseada em regras simples, não captura sarcasmo ou contextos complexos
+- Fonte de Dados: Dependente da disponibilidade dos feeds RSS do Google Notícias
+- Volume: Limitado a ~15 notícias por execução para evitar sobrecarga
+- Idioma: Otimizado para português brasileiro
 
 Atualizando os Dados
 
@@ -94,12 +92,12 @@ Para coletar notícias mais recentes:
 
 Dependências Principais
 
-- **requests**: Requisições HTTP para APIs
-- **pandas**: Manipulação e análise de dados
-- **streamlit**: Framework para dashboard web  
-- **plotly**: Gráficos interativos
-- **wordcloud**: Geração de nuvem de palavras
-- **matplotlib**: Visualizações estáticas
+- requests: Requisições HTTP para APIs
+- pandas: Manipulação e análise de dados
+- streamlit: Framework para dashboard web  
+- plotly: Gráficos interativos
+- wordclouds: Geração de nuvem de palavras
+- matplotlib: Visualizações estáticas
 
 Licença
 
