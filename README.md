@@ -34,4 +34,3 @@ py -m streamlit run dashboard.py
 
 4. Acesse no navegador
 O sistema será aberto automaticamente em: `http://localhost:8501`
-```
